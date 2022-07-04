@@ -1,0 +1,8 @@
+-------- Fire custom Query ----------
+@Query
+   - fire JPQL (same as HPQL)
+   - fire native SQL query
+   
+   > By default @Query annotation take HPQL but if the programmer want to fire native
+   SQL query then he can use as below.
+   @Query(value = "SELECT * FROM TABLE", nativeQuery = true)
